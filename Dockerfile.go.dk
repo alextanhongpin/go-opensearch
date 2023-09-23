@@ -1,0 +1,8 @@
+FROM scratch
+
+
+COPY main main
+
+EXPOSE 8080
+
+CMD ["./main"]

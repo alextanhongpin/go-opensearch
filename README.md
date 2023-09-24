@@ -1,5 +1,10 @@
 # OpenSearch + Fluentd Docker
 
+<img width="1435" alt="image" src="https://github.com/alextanhongpin/go-opensearch/assets/6033638/8c01281f-034b-4099-8186-4e0e2084566a">
+
+
+<img width="1440" alt="image" src="https://github.com/alextanhongpin/go-opensearch/assets/6033638/0f4d9e3b-04e8-4baf-9894-87bfbc3b1401">
+
 
 ## Sanity Test
 

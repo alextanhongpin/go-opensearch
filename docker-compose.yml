@@ -36,7 +36,7 @@ services:
       driver: "fluentd"
       options:
         fluentd-address: localhost:24224
-        tag: myapp
+        tag: docker.myapp # Fluentd <match docker.**>
 
 volumes:
   opensearch-data:

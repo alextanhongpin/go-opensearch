@@ -12,6 +12,7 @@ func main() {
 	mux := http.NewServeMux()
 	mux.HandleFunc("/", func(w http.ResponseWriter, r *http.Request) {
 		logger.Info("request", slog.String("path", r.URL.Path), slog.Any("tags", []string{r.Method}))
+		logger.Info("hello world", slog.String("path", r.URL.Path), slog.Any("tags", []string{r.Method}))
 		fmt.Fprint(w, `{"status": "ok"}`)
 	})
 
